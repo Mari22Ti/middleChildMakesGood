@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DivineLife Dating Quiz</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family="Lato"">
+  <script src="main.js"></script>
+</head>
+
+<body>
+<h1>What's your DQ?</h1>
+<form id="quiz" name="quiz">
+  <p>How many conversations with your match before you meet for a date?</p>
+  <input type="radio" name="question1" id="mc" value="0 - 3"> 0 - 3</br>
+  <input type="radio" name="question2" id="mc" value="4 - 7?"> 4 - 7</br>
+  <input type="radio" name="question3" id="mc" value="8+"> 8+</br>
+
+  <p>What is your idea of a great first date?</p>
+  <input type="radio" name="question4" id="mc" value="Meeting for coffee at
+  a popular cafe"> Meeting for coffee at a popular cafe</br>
+  <input type="radio" name="question5" id="mc" value="Meet for lunch at your
+  local bistro"> Meet for lunch at your local bistro</br>
+  <input type="radio" name="question6" id="mc" value="Dinner at a cozy restaurant">
+  Dinner at a cozy restaurant</br>
+
+  <p>What is a favorite first date question?</p>
+  <input type="radio" name="question7" id="mc" value="How many kids do
+  you want to have?"> How many kids do you want to have?</br>
+  <input type="radio" name="question8" id="mc" value="How long have you
+  been online dating?"> How long have you been online dating?</br>
+  <input type="radio" name="question9" id="mc" value="What do you like to
+  do in your free time?"> What do you like to do in your free time?</br>
+
+  <input type="button" id="button" value="What's my DQ?" onclick="check ();">
+</form>
+  <div id="afterSubmit">
+    <p id="numberCorrect"></p>
+    <p id="message"></p>
+    <img id="picture">
+  </div>
+</body>
+</html>
